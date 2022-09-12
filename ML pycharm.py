@@ -52,4 +52,4 @@ print(train_x_vectors[0])
 from sklearn.svm import SVC
 clf_svm = SVC(kernel='linear')
 print(clf_svm.fit(train_x_vectors,train_y))
-print(clf_svm.predict(train_x_vectors[0])
+print(clf_svm.predict(train_x_vectors[0]))
